@@ -21,7 +21,8 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
-  padding: 1em;
+  padding: 16px;
+  gap: 16px;
 }
 
 .textbox{
@@ -30,13 +31,16 @@ body {
 }
 
 .text{
-  flex-shrink: 0;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .header{
-  font-size: large;
-  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
 }
 
 .icon {
@@ -51,7 +55,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  margin-right: 10px;
 }
 
 .close-button {
