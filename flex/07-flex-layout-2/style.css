@@ -4,7 +4,6 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -29,17 +28,19 @@ body {
 
 .sidebar {
   flex-shrink: 0;
-  align-self: stretch;
   width: 300px;
   background: royalblue;
-  padding: 24px;
+  padding: 16px;
 }
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 16px
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a{
@@ -52,20 +53,20 @@ a{
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  padding: 32px;
+  padding: 16px;
+  margin: 16px;
   width: 300px;
-  height: 350px;
 }
 
 
 .Container{
   display: flex;
+  flex: 1;
+
 }
 
 .card-main {
 display: flex;
-justify-content: center;
 flex-wrap: wrap;
-row-gap: 32px;
-column-gap: 32px;
+padding: 32px;
 }  
